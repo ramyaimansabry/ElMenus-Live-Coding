@@ -14,6 +14,22 @@
 		DC0655E62872039900D08A0E /* ElMenus_Live_CodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0655E52872039900D08A0E /* ElMenus_Live_CodingTests.swift */; };
 		DC0655F02872039900D08A0E /* ElMenus_Live_CodingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0655EF2872039900D08A0E /* ElMenus_Live_CodingUITests.swift */; };
 		DC0655F22872039900D08A0E /* ElMenus_Live_CodingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0655F12872039900D08A0E /* ElMenus_Live_CodingUITestsLaunchTests.swift */; };
+		DC0656012872047A00D08A0E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0656002872047A00D08A0E /* APIService.swift */; };
+		DC0656032872059F00D08A0E /* APIServiceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0656022872059F00D08A0E /* APIServiceContract.swift */; };
+		DC06560D2872064D00D08A0E /* UniversitiesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC06560C2872064D00D08A0E /* UniversitiesResponse.swift */; };
+		DC06560F287206BB00D08A0E /* UniversitiesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC06560E287206BB00D08A0E /* UniversitiesService.swift */; };
+		DC065611287206FB00D08A0E /* UniversitiesServiceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC065610287206FB00D08A0E /* UniversitiesServiceContract.swift */; };
+		DC0656142872086700D08A0E /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0656132872086700D08A0E /* APIConstants.swift */; };
+		DC065618287208C500D08A0E /* APIRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC065617287208C500D08A0E /* APIRequestBuilder.swift */; };
+		DC33A01A28720EB3005D10CD /* UniversitiesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33A01928720EB3005D10CD /* UniversitiesRepository.swift */; };
+		DC33A01C28720ED4005D10CD /* UniversitiesRepositoryContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33A01B28720ED4005D10CD /* UniversitiesRepositoryContract.swift */; };
+		DC33A01E28720F28005D10CD /* SearchForUniversityUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33A01D28720F28005D10CD /* SearchForUniversityUseCase.swift */; };
+		DC33A02028720F35005D10CD /* SearchForUniversityUseCaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33A01F28720F35005D10CD /* SearchForUniversityUseCaseContract.swift */; };
+		DC33A02428720FAB005D10CD /* UniversitiesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33A02328720FAB005D10CD /* UniversitiesListViewModel.swift */; };
+		DC33A02728720FD1005D10CD /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33A02628720FD1005D10CD /* BaseViewModel.swift */; };
+		DC33A02A2872102B005D10CD /* DisposableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33A0292872102B005D10CD /* DisposableObject.swift */; };
+		DC33A02D2872107F005D10CD /* ViewModelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33A02C2872107F005D10CD /* ViewModelState.swift */; };
+		DC33A030287211C7005D10CD /* UniversityRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33A02F287211C7005D10CD /* UniversityRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +60,23 @@
 		DC0655EB2872039900D08A0E /* ElMenus-Live-CodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ElMenus-Live-CodingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0655EF2872039900D08A0E /* ElMenus_Live_CodingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElMenus_Live_CodingUITests.swift; sourceTree = "<group>"; };
 		DC0655F12872039900D08A0E /* ElMenus_Live_CodingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElMenus_Live_CodingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC0656002872047A00D08A0E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		DC0656022872059F00D08A0E /* APIServiceContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceContract.swift; sourceTree = "<group>"; };
+		DC06560C2872064D00D08A0E /* UniversitiesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesResponse.swift; sourceTree = "<group>"; };
+		DC06560E287206BB00D08A0E /* UniversitiesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesService.swift; sourceTree = "<group>"; };
+		DC065610287206FB00D08A0E /* UniversitiesServiceContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesServiceContract.swift; sourceTree = "<group>"; };
+		DC0656132872086700D08A0E /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		DC065617287208C500D08A0E /* APIRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestBuilder.swift; sourceTree = "<group>"; };
+		DC33A01928720EB3005D10CD /* UniversitiesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesRepository.swift; sourceTree = "<group>"; };
+		DC33A01B28720ED4005D10CD /* UniversitiesRepositoryContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesRepositoryContract.swift; sourceTree = "<group>"; };
+		DC33A01D28720F28005D10CD /* SearchForUniversityUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForUniversityUseCase.swift; sourceTree = "<group>"; };
+		DC33A01F28720F35005D10CD /* SearchForUniversityUseCaseContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForUniversityUseCaseContract.swift; sourceTree = "<group>"; };
+		DC33A02328720FAB005D10CD /* UniversitiesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesListViewModel.swift; sourceTree = "<group>"; };
+		DC33A02628720FD1005D10CD /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		DC33A0292872102B005D10CD /* DisposableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposableObject.swift; sourceTree = "<group>"; };
+		DC33A02C2872107F005D10CD /* ViewModelState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelState.swift; sourceTree = "<group>"; };
+		DC33A02F287211C7005D10CD /* UniversityRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityRowView.swift; sourceTree = "<group>"; };
+		DC33A031287216BB005D10CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +127,10 @@
 		DC0655D32872039700D08A0E /* ElMenus-Live-Coding */ = {
 			isa = PBXGroup;
 			children = (
+				DC33A031287216BB005D10CD /* Info.plist */,
+				DC065604287205B900D08A0E /* Universities List */,
+				DC0655FE2872045F00D08A0E /* Utilities */,
 				DC0655D42872039700D08A0E /* ElMenus_Live_CodingApp.swift */,
-				DC0655D62872039700D08A0E /* ContentView.swift */,
 				DC0655D82872039900D08A0E /* Assets.xcassets */,
 				DC0655DA2872039900D08A0E /* Preview Content */,
 			);
@@ -125,6 +160,181 @@
 				DC0655F12872039900D08A0E /* ElMenus_Live_CodingUITestsLaunchTests.swift */,
 			);
 			path = "ElMenus-Live-CodingUITests";
+			sourceTree = "<group>";
+		};
+		DC0655FE2872045F00D08A0E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DC33A02E2872108A005D10CD /* Helpers */,
+				DC33A02828721020005D10CD /* DisoseObject */,
+				DC33A02528720FC4005D10CD /* Bases */,
+				DC0656122872085500D08A0E /* Constants */,
+				DC0655FF2872046B00D08A0E /* Networking */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DC0655FF2872046B00D08A0E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DC065616287208B200D08A0E /* Builder */,
+				DC065615287208A900D08A0E /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DC065604287205B900D08A0E /* Universities List */ = {
+			isa = PBXGroup;
+			children = (
+				DC065605287205D000D08A0E /* Data */,
+				DC065606287205D900D08A0E /* Domain */,
+				DC065607287205DF00D08A0E /* Presentation */,
+			);
+			path = "Universities List";
+			sourceTree = "<group>";
+		};
+		DC065605287205D000D08A0E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DC065608287205EB00D08A0E /* Service */,
+				DC33A01828720EA3005D10CD /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DC065606287205D900D08A0E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				DC065609287205F900D08A0E /* UseCases */,
+				DC06560B2872060800D08A0E /* Interfaces */,
+				DC06560A2872060300D08A0E /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		DC065607287205DF00D08A0E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DC33A02228720F9B005D10CD /* ViewModel */,
+				DC33A02128720F95005D10CD /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DC065608287205EB00D08A0E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC06560E287206BB00D08A0E /* UniversitiesService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DC065609287205F900D08A0E /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				DC33A01D28720F28005D10CD /* SearchForUniversityUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		DC06560A2872060300D08A0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC06560C2872064D00D08A0E /* UniversitiesResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC06560B2872060800D08A0E /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				DC065610287206FB00D08A0E /* UniversitiesServiceContract.swift */,
+				DC33A01B28720ED4005D10CD /* UniversitiesRepositoryContract.swift */,
+				DC33A01F28720F35005D10CD /* SearchForUniversityUseCaseContract.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		DC0656122872085500D08A0E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DC0656132872086700D08A0E /* APIConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		DC065615287208A900D08A0E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC0656002872047A00D08A0E /* APIService.swift */,
+				DC0656022872059F00D08A0E /* APIServiceContract.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DC065616287208B200D08A0E /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				DC065617287208C500D08A0E /* APIRequestBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		DC33A01828720EA3005D10CD /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				DC33A01928720EB3005D10CD /* UniversitiesRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DC33A02128720F95005D10CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC0655D62872039700D08A0E /* ContentView.swift */,
+				DC33A02F287211C7005D10CD /* UniversityRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC33A02228720F9B005D10CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC33A02328720FAB005D10CD /* UniversitiesListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DC33A02528720FC4005D10CD /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				DC33A02628720FD1005D10CD /* BaseViewModel.swift */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		DC33A02828721020005D10CD /* DisoseObject */ = {
+			isa = PBXGroup;
+			children = (
+				DC33A0292872102B005D10CD /* DisposableObject.swift */,
+			);
+			path = DisoseObject;
+			sourceTree = "<group>";
+		};
+		DC33A02B28721075005D10CD /* View Model State */ = {
+			isa = PBXGroup;
+			children = (
+				DC33A02C2872107F005D10CD /* ViewModelState.swift */,
+			);
+			path = "View Model State";
+			sourceTree = "<group>";
+		};
+		DC33A02E2872108A005D10CD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DC33A02B28721075005D10CD /* View Model State */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +467,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC06560D2872064D00D08A0E /* UniversitiesResponse.swift in Sources */,
+				DC33A02028720F35005D10CD /* SearchForUniversityUseCaseContract.swift in Sources */,
+				DC33A02D2872107F005D10CD /* ViewModelState.swift in Sources */,
+				DC33A02428720FAB005D10CD /* UniversitiesListViewModel.swift in Sources */,
+				DC0656032872059F00D08A0E /* APIServiceContract.swift in Sources */,
 				DC0655D72872039700D08A0E /* ContentView.swift in Sources */,
+				DC0656012872047A00D08A0E /* APIService.swift in Sources */,
+				DC065618287208C500D08A0E /* APIRequestBuilder.swift in Sources */,
+				DC0656142872086700D08A0E /* APIConstants.swift in Sources */,
+				DC33A01E28720F28005D10CD /* SearchForUniversityUseCase.swift in Sources */,
 				DC0655D52872039700D08A0E /* ElMenus_Live_CodingApp.swift in Sources */,
+				DC065611287206FB00D08A0E /* UniversitiesServiceContract.swift in Sources */,
+				DC33A02728720FD1005D10CD /* BaseViewModel.swift in Sources */,
+				DC06560F287206BB00D08A0E /* UniversitiesService.swift in Sources */,
+				DC33A01A28720EB3005D10CD /* UniversitiesRepository.swift in Sources */,
+				DC33A02A2872102B005D10CD /* DisposableObject.swift in Sources */,
+				DC33A01C28720ED4005D10CD /* UniversitiesRepositoryContract.swift in Sources */,
+				DC33A030287211C7005D10CD /* UniversityRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +645,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ElMenus-Live-Coding/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ElMenus-Live-Coding/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +674,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ElMenus-Live-Coding/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ElMenus-Live-Coding/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
